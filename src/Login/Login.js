@@ -24,7 +24,7 @@ const Login = () => {
             headers: {
                 Accept: 'application/json',
                 // 'Authorization': `Bearer ${this.props.token}`,
-                // 'Content-Type': 'application/json',
+                'Content-Type': 'application/json',
             },
             body: JSON.stringify({
                 email: email.value,
