@@ -1,0 +1,15 @@
+.carousel-swiper {
+    cursor: grab;
+}
+
+.carousel-swiper:active {
+    cursor: grabbing;
+}
+
+.carousel-swiper > .swiper-pagination > .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+}
+ .swiper-pagination >   {
+    width: 100% !important;
+  }
